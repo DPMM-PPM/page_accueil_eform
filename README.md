@@ -67,4 +67,4 @@ Exemple de code pour l'ajout d'une tuile :
 </div>
 ```
 
-## Envoyer ou uploader votre nouvelle page d'accueil à votre hébergeur ou centre d'infogérence.
+## Envoyer ou uploader votre nouvelle page d'accueil à votre hébergeur ou centre d'infogérance.
