@@ -25,7 +25,7 @@ Exemple de code pour l'ajout d'une tuile :
  <!-- Tuile  -->
 <div class="col-lg-3 col-md-6 col-12 tile">
    <div class="card">
-       <a href="https://example.com" target="_blank">
+       <a href="https://<lien vers le centre de formation>" target="_blank">
            <img src="images/example.png" class="card-img-top" alt="Example">
            <div class="card-body">
                <h5 class="card-title">Example</h5>
@@ -48,7 +48,7 @@ Exemple de code pour l'ajout d'une carte :
 <!-- Carte -->
 <div class="col-lg-6 col-md-12 col-12">
    <div class="card-laterale">
-       <a href="https://example.com" target="_blank">
+       <a href="https://<lien vers outil>" target="_blank">
            <img src="images/example.png" class="card-img-top" alt="Example">
            <div class="card-body">
                <h5 class="card-title">Example</h5>
