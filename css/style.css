@@ -1,0 +1,208 @@
+
+/* CSS général */
+
+
+/* Style pour le bandeau du haut */
+.navbar-custom {
+    background-color: #ffffff; /* Couleur de fond du bandeau */
+    border-bottom: 2px solid #dddddd; /* Bordure en bas de 4px avec couleur bleue */
+    display: flex; /* Utiliser Flexbox pour aligner les éléments */
+    align-items: center; /* Centre verticalement les éléments */ 
+}
+
+/* Style pour le conteneur du titre et du logo */
+.navbar-brand-container {
+    display: flex; /* Utiliser Flexbox pour aligner le logo et le titre */
+    align-items: center; /* Centre verticalement le logo et le titre */
+    flex-grow: 1; /* Permet au conteneur de prendre l'espace disponible */
+}
+
+/* Style pour le titre */
+.navbar-brand {
+    display: inline; /* Assure que le titre ne prend pas plus d'espace que nécessaire */ 
+}
+
+
+
+
+
+.main-content {
+    background-color: #ffffff;
+    padding: 20px;
+}
+.sidebar {
+    background-color: #f6f6f6;
+    padding: 20px;
+}
+
+.logo {
+    height: 80px; /* Ajuste la taille du logo */
+    width: auto; /* Conserve le ratio d'aspect de l'image */
+    margin-right: 100px; /* Espace entre le logo et le texte */
+}
+
+.tile {
+    margin-bottom: 20px; /* Espace entre les tuiles */
+}
+
+/* Style pour les titres h1 */
+h1, h2 {
+    display: inline-block; /* Le titre occupe seulement l'espace nécessaire pour son texte */
+    border-bottom: 1px solid #161616; /* Bordure en bas de 2px */
+    padding-bottom: 30px; /* Espace entre le texte et le trait */
+    margin-bottom: 40px; /* Espace sous le titre */
+}
+
+/* Style pour le footer */
+.footer {
+    background-color: #ffffff; /* Fond blanc */
+    border-top: 2px solid #000091; /* Bordure supérieure de 2px couleur #000091 */
+    color: #000000; /* Couleur du texte (noir ou ajustez selon vos préférences) */
+    padding: 10px 0; /* Espacement intérieur */
+     text-align: left; /* Centrer le texte  */
+}
+
+/* CSS pour les cartes */
+
+.card {
+    border: 1px solid #dddddd; /* Bordure des cartes */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Transition pour les effets au survol */
+
+	flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 4px solid #000091;
+}
+
+.card-img-top {
+    border-bottom: 1px solid #dddddd; /* Bordure en bas de l'image */
+	width: 150px; /* Largeur des images */
+    height: auto; /* Conserve le ratio d'aspect de l'image */
+    margin: 0 auto; /* Centre l'image horizontalement */
+    display: block; /* Assure que l'image est un bloc pour le centrage */
+	
+	object-fit: cover;
+    margin: 0 auto;
+}
+
+.card-body {
+    padding: 15px; /* Espace à l'intérieur de la carte */
+	
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/* Bordure spécifique pour le bas de la carte */
+.card {
+    border-bottom: 4px solid #000091; /* Bordure en bas de la carte */
+}
+
+/* Changement de couleur au survol de la carte */
+.card:hover {
+    background-color: #F6F6F6; /* Couleur de fond au survol */
+}
+
+/* Style pour le lien occupant toute la carte */
+.card a {
+    color: inherit; /* Hérite de la couleur du texte de la carte */
+    text-decoration: none; /* Supprime le soulignement du lien */
+    display: block; /* Permet au lien d'occuper tout l'espace disponible dans la carte */
+}
+
+/* Style pour le titre des cartes */
+.card-title {
+    color: #000091; /* Couleur des titres */
+	text-align: center; /* Centre le texte des titres */
+    margin-bottom: 15px; /* Espace sous le titre */
+	
+	min-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.card a:hover {
+    color: inherit; /* Garde la couleur du texte au survol */
+}
+
+/* Enlève les boutons primaires des cartes */
+.card .btn-primary {
+    display: none; /* Cache les boutons primaires */
+}
+
+
+/* CSS pour les cartes latérales */
+
+/* Style pour le lien occupant toute la carte */
+.card-laterale a {
+    color: inherit; /* Hérite de la couleur du texte de la carte */
+    text-decoration: none; /* Supprime le soulignement du lien */
+    display: block; /* Permet au lien d'occuper tout l'espace disponible dans la carte */
+}
+
+/* Limite la largeur des cartes latérales */
+.card-laterale {
+    max-width: 80%; /* Ajustez cette valeur pour la largeur souhaitée */
+    margin: 0 auto; /* Centre la carte horizontalement */
+    max-height: 300px; /* Limite la hauteur totale de la carte */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Limite la hauteur des images */
+.card-laterale .card-img-top {
+    width: 100px;  /* Limite la largeur de l'image */
+    height: 100px; /* Limite la hauteur de l'image */
+    object-fit: cover; /* Assure que l'image garde son ratio d'aspect et est coupée si nécessaire */
+    margin: 0 auto; /* Centre l'image horizontalement */
+}
+
+/* Limite la hauteur du corps de la carte */
+.card-laterale .card-body {
+    flex-grow: 1;
+    overflow: hidden; /* Cache le contenu qui dépasse */
+    padding: 10px;
+}
+
+/* Limite la hauteur du texte si nécessaire */
+.card-laterale .card-text {
+    max-height: 50px; /* Ajustez cette valeur pour contrôler la hauteur du texte */
+    overflow: hidden; /* Cache le texte qui dépasse */
+    text-overflow: ellipsis; /* Ajoute des points de suspension si le texte est coupé */
+}
+
+/* Ajoute de l'espace entre les cartes */
+.sidebar .card-laterale {
+    margin-bottom: 20px;
+}
+
+/* Uniformiser la bordure des cartes latérales */
+.card-laterale {
+	background-color: #ffffff; /* Fond blanc pour les cartes latérales */
+    border: 1px solid #dddddd; /* Même couleur de bordure que les autres cartes */
+    /*border-bottom: 4px solid #000091; /* Même bordure en bas pour toutes les cartes */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Effet de survol cohérent pour les cartes latérales */
+.card-laterale:hover {
+    background-color: #F6F6F6; /* Même couleur de fond au survol que les autres cartes */
+    /*border-color: #000091; /* La bordure change au survol */
+}
+
+
+#ilFooter{
+    margin-top: 30px;
+	border-bottom: 5px double lightgray;
+}
+
