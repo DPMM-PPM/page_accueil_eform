@@ -1,16 +1,21 @@
-# accueil_eform
-Page d'accueil EFORM
-EFORM Intradef
+# Page accueil EFORM Intradef
 
-Ce dépôt contient les éléménts constiuant la page d'accueil de la plateforme d'enseignement à distance du Ministère des Armées.
-Comment utiliser ce dépôt
+Ce dépôt contient les éléménts constituant la page d'accueil de la plateforme d'enseignement à distance EFORM.
 
-    Téléchargez ou clonez ce dépôt sur votre ordinateur.
-	https://github.com/vincent-sayah/accueil_eform.git
-    Ouvrez le fichier index.html dans votre navigateur web préféré.
+## Instructions d'utilisation
+
+Cloner ou télécharger le dépôt
+
+```bash
+git clone https://github.com/vincent-sayah/accueil_eform.git
+cd accueil_eform
+```
+## Visualiser la page d'accueil
+
+cliquer sur le fichier index.html
 
 
-Comment ajouter une tuile
+## Ajouter une tuile d'accès à un centre ou école de formation
 
 Pour ajouter une tuile, suivez ces étapes :
 
@@ -22,6 +27,7 @@ Pour ajouter une tuile, suivez ces étapes :
 
 Exemple de code pour l'ajout d'une tuile :
 
+```bash
  <!-- Tuile  -->
 <div class="col-lg-3 col-md-6 col-12 tile">
    <div class="card">
@@ -33,18 +39,20 @@ Exemple de code pour l'ajout d'une tuile :
        </a>
    </div>
 </div>
+```
 
-Comment ajouter une carte
+## Ajouter une tuile d'accès à un outils ou services de l'intradef
 
-Pour ajouter une carte, suivez ces étapes :
+Pour ajouter une tuile, suivez ces étapes :
 
     Ajoutez une nouvelle div avec la classe card-laterale dans la section sidebar.
     Ajoutez une image avec la classe card-img-top dans la div card-laterale. L'image doit être au format PNG et de dimension 500x500 px. Elle doit être placée dans le répertoire images.
     Ajoutez une div avec la classe card-body dans la div card-laterale.
     Ajoutez un lien avec la classe card-title dans la div card-body.
 
-Exemple de code pour l'ajout d'une carte :
+Exemple de code pour l'ajout d'une tuile :
 
+```bash
 <!-- Carte -->
 <div class="col-lg-6 col-md-12 col-12">
    <div class="card-laterale">
@@ -56,4 +64,6 @@ Exemple de code pour l'ajout d'une carte :
        </a>
    </div>
 </div>
+```
+
 
