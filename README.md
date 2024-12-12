@@ -42,7 +42,7 @@ Exemple de code pour l'ajout d'une tuile :
 </div>
 ```
 
-## Ajouter une tuile d'accès à un outils ou services de l'intradef
+## Ajouter une tuile d'accès à un outil ou service de l'intradef
 
 Pour ajouter une tuile, suivez ces étapes :
 
