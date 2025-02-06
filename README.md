@@ -22,7 +22,7 @@ Pour ajouter une tuile, suivez ces étapes :
 
 - Ajoutez une nouvelle div avec la classe tile dans la section main-content.
 - Ajoutez une div avec la classe card dans la div tile.
-- Ajouter une balise href vers le lien du lms de formation
+- Ajouter une balise href vers le lien du lms de formation.
 - Ajoutez une image avec la classe card-img-top dans la div card. L'image doit être au format PNG et de dimension 500x500 px. Elle doit être placée dans le répertoire "images".
 - Ajoutez une div avec la classe card-body dans la div card.
 - Ajoutez un titre avec la classe card-title dans la div card-body.
@@ -48,6 +48,7 @@ Exemple de code pour l'ajout d'une tuile :
 Pour ajouter une tuile, suivez ces étapes :
 
 - Ajoutez une nouvelle div avec la classe card-laterale dans la section sidebar.
+- Ajouter une balise href vers le lien du service.
 - Ajoutez une image avec la classe card-img-top dans la div card-laterale. L'image doit être au format PNG et de dimension 500x500 px. Elle doit être placée dans le répertoire "images".
 - Ajoutez une div avec la classe card-body dans la div card-laterale.
 - Ajoutez un titre avec la classe card-title dans la div card-body.
